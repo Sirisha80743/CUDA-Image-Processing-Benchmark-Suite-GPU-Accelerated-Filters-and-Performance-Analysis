@@ -268,13 +268,18 @@ int main() {
 
 ## OUTPUT
 
+```
+from IPython.display import Image, display
 
-<img width="1756" height="808" alt="Screenshot 2026-05-13 205353" src="https://github.com/user-attachments/assets/93bf6965-4bde-4b44-80bc-2805046e38cd" />
-
-
-<img width="1722" height="726" alt="Screenshot 2026-05-13 205455" src="https://github.com/user-attachments/assets/e574e494-525f-4092-999b-d5416834a5a9" />
-
-
+display(Image("grayscale.jpg"))
+display(Image("blur.jpg"))
+display(Image("sharpen.jpg"))
+display(Image("edge.jpg"))
+```
+<img width="710" height="430" alt="image" src="https://github.com/user-attachments/assets/165cb5cf-6249-4cf3-80a0-5f14d759f62f" />
+<img width="710" height="430" alt="image" src="https://github.com/user-attachments/assets/a1761aff-810b-4d99-9a39-30d302afffc5" />
+<img width="710" height="430" alt="image" src="https://github.com/user-attachments/assets/22681a15-0fbb-421f-a47b-1dc343089834" />
+<img width="710" height="430" alt="image" src="https://github.com/user-attachments/assets/ef080d5d-46f4-484b-9317-2606d54ad959" />
 
 ---
 
